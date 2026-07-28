@@ -1,0 +1,169 @@
+exercise_public_code,alias,normalized_alias,source,confidence,status,notes
+Z50-EJ-0001,biceps goma,biceps_goma,Hidrógeno,high,validated,
+Z50-EJ-0001,biceps gomas,biceps_gomas,General,high,validated,
+Z50-EJ-0002,remo goma,remo_goma,Hidrógeno,high,validated,Variante aclarada por Sebas
+Z50-EJ-0002,remo gomas,remo_gomas,Helio,high,validated,Variante aclarada por Sebas
+Z50-EJ-0003,dorsal goma,dorsal_goma,Hidrógeno,medium,review,Confirmar variante
+Z50-EJ-0003,dorsal gomas,dorsal_gomas,Helio,medium,review,Confirmar variante
+Z50-EJ-0004,triceps goma,triceps_goma,Hidrógeno,high,validated,Variante aclarada por Sebas
+Z50-EJ-0004,triceps gomas,triceps_gomas,Helio,high,validated,Variante aclarada por Sebas
+Z50-EJ-0005,isometrico pc,isometrico_pc,Hidrógeno,high,validated,PC = pierna cerrada
+Z50-EJ-0005,iso pc,iso_pc,Helio,high,validated,PC = pierna cerrada
+Z50-EJ-0006,gemelo,gemelo,Hidrógeno/Helio,high,validated,
+Z50-EJ-0007,abdomen goma,abdomen_goma,Hidrógeno,high,validated,Aclarado por Sebas
+Z50-EJ-0008,isometrica pa,isometrica_pa,Hidrógeno,high,validated,PA = pierna abierta
+Z50-EJ-0008,iso pa,iso_pa,Helio,high,validated,PA = pierna abierta
+Z50-EJ-0009,isquio barra,isquio_barra,Hidrógeno/Helio,high,validated,Aclarado por Sebas
+Z50-EJ-0010,gluteo (Almeja),gluteo_almeja,Hidrógeno,high,validated,
+Z50-EJ-0011,gluteo almeja goma,gluteo_almeja_goma,Helio,high,validated,
+Z50-EJ-0012,Gluteo Pierna recta,gluteo_pierna_recta,Hidrógeno,medium,review,Confirmar posición
+Z50-EJ-0013,Lumbar fitball,lumbar_fitball,Hidrógeno,high,validated,
+Z50-EJ-0014,Abdomen fitball,abdomen_fitball,Hidrógeno,high,validated,
+Z50-EJ-0015,Abdomen fitball Lateral,abdomen_fitball_lateral,Hidrógeno,high,validated,
+Z50-EJ-0016,gluteo lateral goma,gluteo_lateral_goma,Helio,medium,review,Confirmar posición
+Z50-EJ-0013,lumbar bp,lumbar_bp,Helio,high,validated,BP unificado a lumbar fitball
+Z50-EJ-0018,abd bp + bm,abd_bp_bm,Helio,high,validated,Aclarado por Sebas
+Z50-EJ-0013,lumbar pa,lumbar_pa,Helio,high,validated,PA unificado a lumbar fitball
+Z50-EJ-0020,abd bm 2kg,abd_bm_2kg,Helio,medium,review,Confirmar BM
+Z50-EJ-0021,superman,superman,Helio,high,validated,
+Z50-EJ-0022,plancha rodillas,plancha_rodillas,Helio,high,validated,
+Z50-EJ-0023,sentadilla al aire,sentadilla_al_aire,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0024,sentadilla a silla,sentadilla_a_silla,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0025,zancada atrás,zancada_atras,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0026,zancada lateral,zancada_lateral,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0027,puente de glúteo,puente_de_gluteo,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0028,puente de glúteo unilateral,puente_de_gluteo_unilateral,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0029,flexión inclinada,flexion_inclinada,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0030,flexión en suelo,flexion_en_suelo,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0031,plancha frontal,plancha_frontal,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0032,plancha lateral,plancha_lateral,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0033,bird dog,bird_dog,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0034,dead bug,dead_bug,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0035,mountain climber suave,mountain_climber_suave,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0036,step jack sin salto,step_jack_sin_salto,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0037,curl de bíceps con botellas,curl_de_biceps_con_botellas,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0038,press hombro con botellas,press_hombro_con_botellas,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0039,elevaciones laterales con botellas,elevaciones_laterales_con_botellas,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0040,remo con mochila,remo_con_mochila,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0041,peso muerto rumano con mochila,peso_muerto_rumano_con_mochila,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0042,sentadilla goblet con mochila,sentadilla_goblet_con_mochila,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0043,fondos en silla,fondos_en_silla,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0044,step-up a silla baja,step_up_a_silla_baja,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0045,curl femoral deslizante con toalla,curl_femoral_deslizante_con_toalla,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0046,plancha con deslizamiento de toalla,plancha_con_deslizamiento_de_toalla,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0047,pallof press con banda,pallof_press_con_banda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0048,face pull con banda,face_pull_con_banda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0049,aperturas de pecho con banda,aperturas_de_pecho_con_banda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0050,press de pecho con banda,press_de_pecho_con_banda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0051,pull apart con banda,pull_apart_con_banda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0052,buenos días con banda,buenos_dias_con_banda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0053,sentadilla con banda,sentadilla_con_banda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0054,press pallof medio arrodillado,press_pallof_medio_arrodillado,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0055,caminata lateral con minibanda,caminata_lateral_con_minibanda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0056,monster walk adelante,monster_walk_adelante,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0057,sentadilla con minibanda,sentadilla_con_minibanda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0058,puente de glúteo con minibanda,puente_de_gluteo_con_minibanda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0059,patada de glúteo con minibanda,patada_de_gluteo_con_minibanda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0060,fire hydrant con minibanda,fire_hydrant_con_minibanda,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0061,remo en trx,remo_en_trx,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0062,press de pecho en trx,press_de_pecho_en_trx,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0063,sentadilla asistida en trx,sentadilla_asistida_en_trx,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0064,zancada atrás asistida en trx,zancada_atras_asistida_en_trx,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0065,curl bíceps en trx,curl_biceps_en_trx,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0066,extensión tríceps en trx,extension_triceps_en_trx,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0067,plancha con pies en trx,plancha_con_pies_en_trx,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0068,curl femoral en trx,curl_femoral_en_trx,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0069,press suelo con mancuernas,press_suelo_con_mancuernas,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0070,remo unilateral con mancuerna,remo_unilateral_con_mancuerna,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0071,peso muerto rumano con mancuernas,peso_muerto_rumano_con_mancuernas,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0072,sentadilla goblet,sentadilla_goblet,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0073,farmer carry,farmer_carry,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0074,thruster con botellas,thruster_con_botellas,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0075,swing con kettlebell,swing_con_kettlebell,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0076,peso muerto con kettlebell,peso_muerto_con_kettlebell,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0077,press de hombro con kettlebell,press_de_hombro_con_kettlebell,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0078,remo con kettlebell,remo_con_kettlebell,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0079,halo con kettlebell,halo_con_kettlebell,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0080,plancha sobre fitball,plancha_sobre_fitball,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0081,pike sobre fitball,pike_sobre_fitball,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0082,curl femoral con fitball,curl_femoral_con_fitball,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0083,wall squat con fitball,wall_squat_con_fitball,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0084,transferencia de pelota pilates,transferencia_de_pelota_pilates,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0085,automasaje gemelo con foam roller,automasaje_gemelo_con_foam_roller,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0086,automasaje cuádriceps con foam roller,automasaje_cuadriceps_con_foam_roller,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0087,automasaje dorsal con foam roller,automasaje_dorsal_con_foam_roller,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0088,movilidad torácica en foam roller,movilidad_toracica_en_foam_roller,Banco funcional home,low,draft,Fuente: Investigación funcional home
+Z50-EJ-0023,squat,squat,Banco funcional home,low,draft,Alias internacional
+Z50-EJ-0023,air squat,air_squat,Banco funcional home,low,draft,Alias internacional
+Z50-EJ-0029,wall push up,wall_push_up,Banco funcional home,low,draft,Flexión en pared
+Z50-EJ-0038,remo mochila,remo_mochila,Banco funcional home,low,draft,Alias corto
+Z50-EJ-0040,sentadilla mochila,sentadilla_mochila,Banco funcional home,low,draft,Alias corto
+Z50-EJ-0035,curl botellas,curl_botellas,Banco funcional home,low,draft,Alias corto
+Z50-EJ-0045,pallof,pallof,Banco funcional home,low,draft,Alias corto
+Z50-EJ-0053,monster walk,monster_walk,Banco funcional home,low,draft,Alias frecuente
+Z50-EJ-0059,remo trx,remo_trx,Banco funcional home,low,draft,Alias corto
+Z50-EJ-0059,trx row,trx_row,Banco funcional home,low,draft,Alias internacional
+Z50-EJ-0078,kettlebell swing,kettlebell_swing,Banco funcional home,low,draft,Alias internacional
+Z50-EJ-0085,foam roller gemelo,foam_roller_gemelo,Banco funcional home,low,draft,Alias corto
+Z50-EJ-0089,respiración diafragmática tumbado,respiracion_diafragmatica_tumbado,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0090,respiración costal lateral,respiracion_costal_lateral,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0091,respiración 4-4 en caja,respiracion_4_4_en_caja,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0092,respiración 4-7-8,respiracion_4_7_8,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0093,respiración con labios fruncidos,respiracion_con_labios_fruncidos,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0094,escaneo corporal guiado,escaneo_corporal_guiado,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0095,relajación progresiva de hombros,relajacion_progresiva_de_hombros,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0096,relajación progresiva de manos,relajacion_progresiva_de_manos,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0097,gato-camello,gato_camello,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0098,postura del niño,postura_del_nino,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0099,enhebrar la aguja,enhebrar_la_aguja,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0100,estiramiento cervical lateral,estiramiento_cervical_lateral,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0101,estiramiento de pectoral en puerta,estiramiento_de_pectoral_en_puerta,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0102,estiramiento dorsal con silla,estiramiento_dorsal_con_silla,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0103,rotación torácica libro abierto,rotacion_toracica_libro_abierto,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0104,estiramiento flexor de cadera arrodillado,estiramiento_flexor_de_cadera_arrodillado,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0105,estiramiento isquios con toalla,estiramiento_isquios_con_toalla,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0106,estiramiento gemelo en pared,estiramiento_gemelo_en_pared,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0107,estiramiento cuádriceps lateral,estiramiento_cuadriceps_lateral,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0108,figura 4 glúteo,figura_4_gluteo,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0109,mariposa sentada,mariposa_sentada,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0110,torsión lumbar tumbado,torsion_lumbar_tumbado,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0111,pelvic curl,pelvic_curl,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0112,the hundred preparación,the_hundred_preparacion,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0113,single leg stretch,single_leg_stretch,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0114,double leg stretch,double_leg_stretch,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0115,círculos de pierna,circulos_de_pierna,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0116,clam pilates,clam_pilates,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0117,patada lateral pilates,patada_lateral_pilates,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0118,swimming pilates,swimming_pilates,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0119,spine stretch forward,spine_stretch_forward,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0120,mermaid pilates,mermaid_pilates,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0121,pelota pilates entre rodillas,pelota_pilates_entre_rodillas,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0122,dead bug con pelota pilates,dead_bug_con_pelota_pilates,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0123,montaña,montana,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0124,silla yoga,silla_yoga,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0125,perro boca abajo,perro_boca_abajo,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0126,cobra suave,cobra_suave,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0127,esfinge,esfinge,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0128,guerrero ii,guerrero_ii,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0129,triángulo,triangulo,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0130,zancada baja,zancada_baja,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0131,paloma modificada,paloma_modificada,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0132,flexión sentada adelante,flexion_sentada_adelante,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0133,bebé feliz,bebe_feliz,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0134,piernas en la pared,piernas_en_la_pared,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0135,postura del cadáver,postura_del_cadaver,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0136,árbol,arbol,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0137,puerta yoga,puerta_yoga,Investigación respiración-relajación-pilates-yoga,low,draft,Añadido a biblioteca maestra
+Z50-EJ-0089,respiracion diafragmatica,respiracion_diafragmatica,Investigación respiración-relajación-pilates-yoga,low,draft,Alias sin tilde
+Z50-EJ-0091,box breathing,box_breathing,Investigación respiración-relajación-pilates-yoga,low,draft,Alias inglés habitual
+Z50-EJ-0092,4-7-8,4_7_8,Investigación respiración-relajación-pilates-yoga,low,draft,Alias numérico
+Z50-EJ-0097,gato camello,gato_camello,Investigación respiración-relajación-pilates-yoga,low,draft,Alias popular
+Z50-EJ-0097,cat cow,cat_cow,Investigación respiración-relajación-pilates-yoga,low,draft,Alias yoga
+Z50-EJ-0098,postura niño,postura_nino,Investigación respiración-relajación-pilates-yoga,low,draft,Alias yoga
+Z50-EJ-0098,child pose,child_pose,Investigación respiración-relajación-pilates-yoga,low,draft,Alias yoga
+Z50-EJ-0126,perro boca abajo,perro_boca_abajo,Investigación respiración-relajación-pilates-yoga,low,draft,Alias yoga
+Z50-EJ-0126,downward dog,downward_dog,Investigación respiración-relajación-pilates-yoga,low,draft,Alias inglés
+Z50-EJ-0135,savasana,savasana,Investigación respiración-relajación-pilates-yoga,low,draft,Alias yoga
+Z50-EJ-0134,piernas pared,piernas_pared,Investigación respiración-relajación-pilates-yoga,low,draft,Alias corto
+Z50-EJ-0112,hundred,hundred,Investigación respiración-relajación-pilates-yoga,low,draft,Alias Pilates
+Z50-EJ-0120,mermaid,mermaid,Investigación respiración-relajación-pilates-yoga,low,draft,Alias Pilates

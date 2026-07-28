@@ -1,0 +1,7 @@
+public_code,name,description,category,unlock_condition,points_reward,status
+Z50-BADGE-0001,Primer paso,Completa tu primer reto Rezeta50.,inicio,"{""type"": ""completed_challenges"", ""count"": 1}",25,active
+Z50-BADGE-0002,Sin excusas,Mantén una racha de 3 días.,constancia,"{""type"": ""streak"", ""days"": 3}",50,active
+Z50-BADGE-0003,Motor encendido,Completa 5 retos funcionales.,functional_body,"{""type"": ""family_completed"", ""family"": ""functional_body"", ""count"": 5}",75,active
+Z50-BADGE-0004,Respira y gana,Completa 5 retos de respiración o relax.,breathing_relax,"{""type"": ""family_completed"", ""family"": ""breathing_relax"", ""count"": 5}",75,active
+Z50-BADGE-0005,Espalda libre,Completa 3 retos de movilidad o espalda.,mobility,"{""type"": ""family_completed"", ""families"": [""mobility"", ""core_back"", ""neck_back""], ""count"": 3}",75,active
+Z50-BADGE-0006,Vuelvo hoy,Completa un reto tras varios días de pausa.,retorno,"{""type"": ""return_after_inactivity"", ""days"": 7}",30,active
