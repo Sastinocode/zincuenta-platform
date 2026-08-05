@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Fondo claro profesional + acento verde Zincuenta */
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 152 65% 28%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 95%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 95%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 152 40% 94%;
+    --accent-foreground: 152 65% 20%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 90%;
+    --input: 214 32% 90%;
+    --ring: 152 65% 28%;
+
+    --radius: 0.5rem;
+
+    /* Semáforo BodyMAP / contraindicaciones */
+    --semaforo-verde: 142 71% 40%;
+    --semaforo-ambar: 38 92% 45%;
+    --semaforo-rojo: 0 74% 50%;
+  }
+
+  /* Modo oscuro: usado en la pantalla de sala (/pantalla) */
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 45% 9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 45% 9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 152 60% 45%;
+    --primary-foreground: 222 47% 6%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 33% 20%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 40%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 20%;
+    --input: 217 33% 20%;
+    --ring: 152 60% 45%;
+
+    --semaforo-verde: 142 71% 50%;
+    --semaforo-ambar: 38 92% 55%;
+    --semaforo-rojo: 0 84% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
