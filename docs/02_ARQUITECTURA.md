@@ -43,7 +43,7 @@ zincuenta-platform/
 
 ## 3. Autenticación y permisos
 
-- **Staff**: Supabase Auth (email+password). El rol vive en `core_profiles.rol` (`admin` | `recepcion` | `entrenador`). Middleware redirige según rol; RLS refuerza en BBDD (defensa en dos capas).
+- **Staff**: Supabase Auth (email+password). El rol vive en `core_profiles.rol` (`admin` | `gestion` | `entrenador`). Middleware redirige según rol; RLS refuerza en BBDD (defensa en dos capas).
 - **Pantalla de sala**: sin login personal. Emparejado del dispositivo: se introduce el PIN de la sala una vez → el servidor entrega el `device_token` → queda guardado en el dispositivo. Las lecturas de la pantalla pasan por `/api/pantalla/*` con service role, validando el token. Así la RLS del resto de tablas se mantiene estricta.
 - **Cliente (BodyMAP por enlace)**: token de un solo uso en `/q/[token]`, sin cuenta. El registro de cuentas de cliente llega en Fase 3 (app Rezeta 50).
 

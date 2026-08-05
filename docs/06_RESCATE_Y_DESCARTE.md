@@ -10,7 +10,7 @@
 | Motor de gamificación (esquema puntos/rachas/medallas) | mismo repo → `REZETA50_SUPABASE_SQL_SCHEMA.sql` + `docs/REZETA50_GAMIFICATION_SYSTEM.md` | Referencia para Fase 2 | Localizado |
 | Especificación BodyMAP (D1–D8, scoring, semáforo, red flags) | `02_BODYMAP_ONBOARDING/BodyMAP_Zincuenta_Spec_v1.0.docx` | Copiar a `docs/` del repo antes de MP-3 | Localizado |
 | 17 fichas de patología | Documentación Rezeta 50 (knowledge del proyecto) | Seed de `ejer_patologias` en MP-4 | Localizado |
-| Roles admin/recepción/entrenador | Diseño CRM Zincuenta v2 | Incorporado al PRD y al esquema | ✅ Integrado |
+| Roles admin/gestión/entrenador | Diseño CRM Zincuenta v2 | Incorporado al PRD y al esquema | ✅ Integrado |
 | Patrón pantalla + PIN/firma | Z50Sing (Replit) | Patrón de interacción de `/pantalla` (no código) | ⚠️ Exportar el proyecto de Replit antes de que caduque |
 | Protocolo onboarding 6 semanas + datos de Maribel | zincuenta-onboarding (`onb_`) | Migración en Fase 3, cruce por email | Sigue en producción — NO tocar |
 

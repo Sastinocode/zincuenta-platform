@@ -16,7 +16,7 @@ Plataforma interna única de Clínica Zincuenta (Cabezo de Torres, Murcia). MVP 
 
 ## Roles y accesos
 
-- `admin` (Sebas): todo. `recepcion` (Maribel): clientes, agenda, lanzar BodyMAP; no edita ejercicioteca. `entrenador`: sus clientes, sesiones, BodyMAP de sus clientes; nunca datos de pago.
+- `admin` (Sebas): todo. `gestion` (Maribel): clientes, agenda, lanzar BodyMAP; no edita ejercicioteca. `entrenador`: sus clientes, sesiones, BodyMAP de sus clientes; nunca datos de pago.
 - Pantalla de sala: sin login; emparejado por PIN → `device_token` guardado en localStorage; lecturas vía `/api/pantalla/*` con service role.
 - El **email del cliente es la clave de cruce** con el resto del ecosistema Zincuenta.
 

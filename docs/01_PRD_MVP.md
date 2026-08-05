@@ -22,7 +22,7 @@ Una sola plataforma interna para Clínica Zincuenta donde los entrenadores gesti
 | Rol | Quién | Qué hace en el MVP |
 |---|---|---|
 | `admin` | Sebas | Todo: usuarios, ejercicioteca, clientes, sesiones, configuración salas |
-| `recepcion` | Maribel | Alta de clientes, lanzar cuestionario BodyMAP, ver agenda de sesiones. No edita ejercicioteca, no ve datos clínicos detallados |
+| `gestion` | Maribel | Alta de clientes, lanzar cuestionario BodyMAP, ver agenda de sesiones. No edita ejercicioteca, no ve datos clínicos detallados |
 | `entrenador` | Rogelio, Daniel, resto staff | Sus clientes, crear/lanzar sesiones, ver BodyMAP de sus clientes, registrar seguimiento. No ve datos de pago |
 | Pantalla de sala | Dispositivo (TV/tablet) | Sin login personal. Acceso por PIN de sala + token de dispositivo. Solo muestra la sesión en vivo |
 
@@ -31,7 +31,7 @@ Una sola plataforma interna para Clínica Zincuenta donde los entrenadores gesti
 ### Módulo A — CRM de gestión (ruta `/crm`)
 - Listado de clientes con búsqueda y filtros (estado, entrenador asignado, semáforo BodyMAP).
 - Ficha de cliente: datos personales, entrenador asignado, patologías activas, último BodyMAP con semáforo D1–D8, historial de sesiones, notas de seguimiento.
-- Alta/edición de cliente (recepción y admin). El **email es la clave de cruce** con el resto del ecosistema (mismo criterio que zincuenta-onboarding).
+- Alta/edición de cliente (gestión y admin). El **email es la clave de cruce** con el resto del ecosistema (mismo criterio que zincuenta-onboarding).
 - Notas de seguimiento por cliente (autor, fecha, texto).
 - Panel de entrenador: "mis clientes", clientes sin sesión reciente, BodyMAPs en rojo/amarillo pendientes de revisar.
 
@@ -59,7 +59,7 @@ Una sola plataforma interna para Clínica Zincuenta donde los entrenadores gesti
 
 ### Módulo D — BodyMAP (ruta `/bodymap`)
 - Cuestionario musculoesquelético D1–D8 (mismo modelo del Rezeta 50 original: mapa corporal, ZoneScore/GlobalScore ponderado, detección de red flags).
-- Se lanza desde recepción (tablet) o por enlace de un solo uso enviado al cliente.
+- Se lanza desde gestión (tablet) o por enlace de un solo uso enviado al cliente.
 - Resultado: semáforo verde/amarillo/rojo por dominio + global, guardado en la ficha del cliente.
 - Red flag → alerta destacada al entrenador asignado y admin (patrón semáforo del proyecto Rezeta 50).
 - Las patologías detectadas/confirmadas alimentan los avisos de contraindicación del creador de sesiones.

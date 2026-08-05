@@ -10,7 +10,7 @@ create table public.core_profiles (
   id uuid primary key references auth.users(id) on delete cascade,
   nombre text not null,
   email text not null unique,
-  rol text not null check (rol in ('admin','recepcion','entrenador')),
+  rol text not null check (rol in ('admin','gestion','entrenador')),
   activo boolean not null default true,
   created_at timestamptz not null default now()
 );
@@ -257,10 +257,10 @@ create policy staff_read_seguimientos on public.crm_seguimientos for select usin
 create policy staff_read_bm on public.bm_evaluaciones for select using (public.core_rol() in ('admin','entrenador'));
 create policy staff_read_cliente_pat on public.bm_cliente_patologias for select using (public.core_rol() is not null);
 
--- Escritura clientes: admin y recepción; entrenador solo actualiza los suyos
-create policy clientes_write on public.core_clientes for insert with check (public.core_rol() in ('admin','recepcion'));
+-- Escritura clientes: admin y gestión; entrenador solo actualiza los suyos
+create policy clientes_write on public.core_clientes for insert with check (public.core_rol() in ('admin','gestion'));
 create policy clientes_update on public.core_clientes for update using (
-  public.core_rol() in ('admin','recepcion') or entrenador_id = auth.uid()
+  public.core_rol() in ('admin','gestion') or entrenador_id = auth.uid()
 );
 
 -- Ejercicioteca: escriben admin y entrenador
@@ -269,7 +269,7 @@ create policy ejer_update on public.ejer_ejercicios for update using (public.cor
 create policy contra_write on public.ejer_contraindicaciones for all using (public.core_rol() in ('admin','entrenador'));
 create policy patologias_admin on public.ejer_patologias for all using (public.core_rol() = 'admin');
 
--- Sesiones y plantillas: crea admin/entrenador; recepción puede programar (update fecha vía app)
+-- Sesiones y plantillas: crea admin/entrenador; gestión puede programar (update fecha vía app)
 create policy plantillas_write on public.ses_plantillas for all using (
   public.core_rol() = 'admin' or creador_id = auth.uid()
 );
@@ -278,15 +278,15 @@ create policy sesiones_write on public.ses_sesiones for all using (
 );
 create policy bloques_write on public.ses_bloques for all using (public.core_rol() in ('admin','entrenador'));
 create policy items_write on public.ses_items for all using (public.core_rol() in ('admin','entrenador'));
-create policy participantes_write on public.ses_participantes for all using (public.core_rol() in ('admin','entrenador','recepcion'));
+create policy participantes_write on public.ses_participantes for all using (public.core_rol() in ('admin','entrenador','gestion'));
 create policy registros_write on public.ses_registros for all using (public.core_rol() in ('admin','entrenador'));
 create policy vivo_write on public.ses_estado_vivo for all using (public.core_rol() in ('admin','entrenador'));
 
 -- CRM seguimientos
 create policy seguimientos_write on public.crm_seguimientos for insert with check (public.core_rol() is not null);
 
--- BodyMAP: crean recepción/admin/entrenador; el cliente responde vía API (service role) con token
-create policy bm_write on public.bm_evaluaciones for all using (public.core_rol() in ('admin','recepcion','entrenador'));
+-- BodyMAP: crean gestión/admin/entrenador; el cliente responde vía API (service role) con token
+create policy bm_write on public.bm_evaluaciones for all using (public.core_rol() in ('admin','gestion','entrenador'));
 create policy cliente_pat_write on public.bm_cliente_patologias for all using (public.core_rol() in ('admin','entrenador'));
 
 -- Salas: solo admin (la pantalla accede vía API con service role + device_token)

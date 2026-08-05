@@ -26,13 +26,13 @@ redirija a /login. No implementes módulos todavía. Termina listando cómo prob
 Implementa core_profiles (el SQL del Bloque 1 de docs/03_ESQUEMA_BBDD.sql ya
 está aplicado — confírmame que lo he ejecutado antes de seguir). Al hacer
 login, carga el perfil y su rol. Crea la navegación del área (staff) según rol:
-admin ve todo (CRM, Ejercicios, Sesiones, BodyMAP, Configuración), recepcion ve
+admin ve todo (CRM, Ejercicios, Sesiones, BodyMAP, Configuración), gestion ve
 CRM/Agenda/BodyMAP, entrenador ve CRM/Ejercicios/Sesiones/BodyMAP. Añade en
 Configuración (solo admin) la gestión de usuarios del staff y de salas
 (core_salas: nombre y PIN). Páginas de módulos como placeholders.
 ```
 
-**Validación:** crear los 4 usuarios reales (Sebas admin, Maribel recepción, Rogelio y Daniel entrenadores) y ver menús distintos.
+**Validación:** crear los 4 usuarios reales (Sebas admin, Maribel gestión, Rogelio y Daniel entrenadores) y ver menús distintos.
 
 ## MP-2 · CRM de clientes
 
@@ -55,7 +55,7 @@ con datos vacíos). Mobile-first.
 Implementa el módulo /bodymap según el PRD módulo D. Cuestionario D1–D8 con mapa
 corporal (usa la especificación de dominios y ponderación de
 docs/BodyMAP_Zincuenta_Spec si está en docs/, si no, pídemela). Flujos: (1)
-recepción lanza cuestionario en tablet para un cliente, (2) enlace de un solo
+gestión lanza cuestionario en tablet para un cliente, (2) enlace de un solo
 uso /q/[token] enviado al cliente. Scoring en src/lib/bodymap/scoring.ts:
 ZoneScore por dominio, GlobalScore ponderado, semáforo verde/amarillo/rojo y
 detección de red flags. Guardar en bm_evaluaciones vía API con service role
