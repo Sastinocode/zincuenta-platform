@@ -3,6 +3,8 @@ import type { Rol } from "@/lib/types";
 export interface NavItem {
   href: string;
   label: string;
+  /** Si true, solo se marca activo con match exacto (no por prefijo). */
+  exact?: boolean;
 }
 
 export const NAV_BY_ROL: Record<Rol, NavItem[]> = {

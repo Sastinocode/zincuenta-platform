@@ -1,9 +1,10 @@
-// Tipos de la BBDD (Supabase), escritos a mano para las tablas del Bloque 1
-// (CORE) ya aplicado. A medida que se apliquen más bloques, o cuando haya
-// acceso al CLI de Supabase, regenerar completo con:
+// Tipos de la BBDD (Supabase), escritos a mano para las tablas de los
+// Bloques 1 (CORE) y 2 (CRM) ya aplicados. A medida que se apliquen más
+// bloques, o cuando haya acceso al CLI de Supabase, regenerar completo con:
 // `npx supabase gen types typescript --project-id <id> > src/lib/types.ts`
 
 export type Rol = "admin" | "gestion" | "entrenador";
+export type TipoSeguimiento = "nota" | "llamada" | "incidencia" | "revision";
 
 export interface Database {
   public: {
@@ -76,6 +77,26 @@ export interface Database {
           activa?: boolean;
         };
         Update: Partial<Database["public"]["Tables"]["core_salas"]["Insert"]>;
+        Relationships: [];
+      };
+      crm_seguimientos: {
+        Row: {
+          id: string;
+          cliente_id: string;
+          autor_id: string;
+          tipo: TipoSeguimiento;
+          texto: string;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          cliente_id: string;
+          autor_id: string;
+          tipo?: TipoSeguimiento;
+          texto: string;
+          created_at?: string;
+        };
+        Update: Partial<Database["public"]["Tables"]["crm_seguimientos"]["Insert"]>;
         Relationships: [];
       };
     };
